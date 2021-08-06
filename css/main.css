@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.box{
+    display: inline-flex;
+    background:  repeat url("https://preview.colorlib.com/theme/solmusic/img/how-to-bg.jpg.webp");
+    flex-direction: row;
+    gap: 30px;
+}
+.box-item-1{
+    display: inline-flex;
+    flex-direction: column;
+}
+.heading{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 70px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    color: white;
+    line-height: .9;
+    font-size: 70px;
+
+
+}
+.description{
+    margin-left: 50px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    line-height: 1.8;
+    font-weight:500;
+    color: white ;
+}
+.music{
+    color: red;
+
+}
+.box-item-2{
+    background:  url("https://preview.colorlib.com/theme/solmusic/img/how-to-bg.jpg.webp");
+
+
+}
+.box-item-3{
+    display: inline-flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 40px;
+    padding-bottom: 100px;
+}
+.site-btn{
+    position: relative;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    min-width: 195px;
+    padding: 27px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    line-height: normal;
+    background: red;
+    color: white;
+    cursor:pointer;
+    text-align: center;
+    text-decoration: none;
+    align-self: flex-start;
+}
+.site-btn:hover{
+    background: aliceblue;
+    text-decoration: none;
+}
+.site-btn-2{
+    position: relative;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    min-width: 195px;
+    padding: 27px 20px;
+    align-content: flex-end;
+    border-radius: 50px;
+    text-transform: uppercase;
+    line-height: normal;
+    background: #383b70;
+    color: white;
+    cursor:pointer;
+    text-align: center;
+    text-decoration: none;
+    align-self: flex-end;
+
+}
+.site-btn-2:hover{
+    background: aliceblue;
+    text-decoration: none;
+}
+.box-item-3{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.advertisement-box{
+    display: flex;
+    flex-direction: row;
+    padding: 100px ;
+}
+.h1{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+    text-align: center;
+    font-size:3.5rem;
+    line-height: .9;
+    font-weight: 500;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+}
+.ad-2{
+    padding: 50px 50px 50px 50px;
+
+    display: inline-flex;
+    gap:30px;
+    flex-direction: column;
+
+}
+.description-2 {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+}
+.site-btn-3{
+
+    position: relative;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    align-self: flex-start;
+
+    width : 170px;
+    padding: 27px 20px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    line-height: normal;
+    background: red;
+    color: white;
+    cursor:pointer;
+    text-align: center;
+    text-decoration: none;
+
+}
+.site-btn-3:hover{
+    text-decoration: none;
+    background: aquamarine;
+}
+.end{
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+    background : repeat url("https://preview.colorlib.com/theme/solmusic/img/how-to-bg.jpg.webp");
+
+}
+ul{
+    list-style: none;
+    padding-bottom: 200px;
+    padding-top: 30px;
+
+
+}
+li{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-align: -webkit-match-parent;
+
+}
+.head-li{
+    font-weight: 600;
+    color: white;
+    line-height: 1;
+
+
+}
+.list1{
+    align-self: flex-start;
+
+}
+.footer-text{
+    display: inline-flex;
+    flex-direction: row;
+    color: white;
+    font-weight: bold;
+    line-height: 1;
+    font-family: "Montserrat", sans-serif;
+    padding: 60px;
+    padding-right: 100%;
+    color: aqua;
+    flex:1 1 auto;
+    background : repeat url("https://preview.colorlib.com/theme/solmusic/img/how-to-bg.jpg.webp");
+
+
+}
+.list2{
+    display: inline-flex;
+    padding-left: 30px;
+}
+i{
+    padding: 15px;
+}
+text{
+    word-spacing: 22px;
+    font-size: 13px;
+}
+.icons{
+    display: inline-flex;
+    flex-direction: row;
+
+
+}
